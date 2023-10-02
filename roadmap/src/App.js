@@ -1,5 +1,5 @@
-import React from 'react';
-import Logo from "./Logo";
+// Remove the import statement for React since it is already imported below
+import Logo from './Logo';
 import './App.css'; // Create a CSS file for styling
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         </div>
         <div className="buttons">
           <button>Login</button>
-          <button>Other Button</button>
+          <button>About</button>
         </div>
       </header>
       <div className="content">
