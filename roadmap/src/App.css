@@ -11,9 +11,9 @@
   color: #060e1f;
 }
 
-.Logo img {
+.logo img {
   max-height: 50px;
-
+  max-width: 50px;
 }
 
 .buttons button {
