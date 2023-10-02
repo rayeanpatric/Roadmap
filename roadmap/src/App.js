@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './logo';
+import Logo from "./Logo";
 import './App.css'; // Create a CSS file for styling
 
 function App() {
