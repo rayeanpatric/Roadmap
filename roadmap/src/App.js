@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from "logo.png";
 import './App.css'; // Create a CSS file for styling
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="logo">
-          <img src="path/to/logo.png" alt="Logo" />
+          <img src="logo.png" alt="Logo" />
         </div>
         <div className="buttons">
           <button>Login</button>
