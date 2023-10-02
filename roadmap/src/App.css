@@ -23,8 +23,12 @@
   background-color: #060e1f;
   color: #d9d9d9;
   border: 0px;
+  cursor: pointer;
   }
-
+.buttons button:hover {
+    background-color: #6744e3;
+    color: white;
+}
 .content {
   padding: 20px;
 }
