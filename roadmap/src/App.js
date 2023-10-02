@@ -10,8 +10,11 @@ function App() {
          <Logo />
         </div>
         <div className="buttons">
-          <button>Login</button>
+          <button>Home</button>
+          <button>Works</button>
           <button>About</button>
+          <button>Contact</button>
+          <button>Login</button>
         </div>
       </header>
       <div className="content">
