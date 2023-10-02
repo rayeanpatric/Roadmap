@@ -3,6 +3,10 @@ import Logo from './Logo';
 import './App.css'; // Create a CSS file for styling
 
 function App() {
+  const handleClick = (buttonName) => {
+    console.log(`Button ${buttonName} clicked`);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -10,11 +14,11 @@ function App() {
          <Logo />
         </div>
         <div className="buttons">
-          <button>Home</button>
-          <button>Works</button>
-          <button>About</button>
-          <button>Contact</button>
-          <button>Login</button>
+          <button onClick={() => handleClick('Home')}>Home</button>
+          <button onClick={() => handleClick('Works')}>Works</button>
+          <button onClick={() => handleClick('About')}>About</button>
+          <button onClick={() => handleClick('Contact')}>Contact</button>
+          <button onClick={() => handleClick('Login')}>Login</button>
         </div>
       </header>
       <div className="content">
@@ -23,5 +27,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
