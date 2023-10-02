@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from './logo';
+import Logo from './Logo.js';
 import './App.css'; // Create a CSS file for styling
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="logo">
+        <div className="Logo">
          <Logo />
         </div>
         <div className="buttons">
