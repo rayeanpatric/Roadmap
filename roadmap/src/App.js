@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Logo from "./Componants/Logo";
+import Logo from './Componants/Logo';
 
 function App() {
   const handleClick = (buttonName) => {
@@ -29,6 +30,9 @@ function App() {
       </header>
       <div className="content">
         <div id="home">
+          <h1>CEREBRO</h1>
+          <h2>Personalized Learning RoadMap</h2>
+          <p><strong>“The Best way to Shine in Future is to Create it.” </strong></p>
           {/* Home content goes here */}
         </div>
         <div id="works">
