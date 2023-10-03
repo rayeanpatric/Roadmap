@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Logo from "./Componants/Logo";
-import Logo from './Componants/Logo';
 
 function App() {
   const handleClick = (buttonName) => {
