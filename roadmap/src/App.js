@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Logo from './Componants/Logo';
+import Logo from "./Componants/Logo";
 
 function App() {
   const handleClick = (buttonName) => {
@@ -21,7 +21,7 @@ function App() {
         </div>
         <div className="buttons">
           <button onClick={() => handleClick('Home')}>Home</button>
-          <button onClick={() => handleClick('Works')}>Works</button>
+          <button onClick={() => handleClick('Features')}>Features</button>
           <button onClick={() => handleClick('About')}>About</button>
           <button onClick={() => handleClick('Contact')}>Contact</button>
           <button onClick={() => handleClick('Login')}>Login</button>
@@ -32,9 +32,10 @@ function App() {
           <h1>CEREBRO</h1>
           <h2>Personalized Learning RoadMap</h2>
           <p><strong>“The Best way to Shine in Future is to Create it.” </strong></p>
+          <p>Let's create a simple and engaging way to help students grasp tricky concepts with ease.</p>
           {/* Home content goes here */}
         </div>
-        <div id="works">
+        <div id="features">
           {/* Works content goes here */}
         </div>
         <div id="about">
