@@ -1,5 +1,5 @@
 // Remove the import statement for React since it is already imported below
-import Logo from './Logo';
+import Logo from './Componants/Logo';
 import './App.css'; // Create a CSS file for styling
 
 function App() {
