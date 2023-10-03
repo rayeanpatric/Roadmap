@@ -16,6 +16,8 @@
 .Logo img {
   max-height: 50px;
   max-width: 100px;
+  top: 10px;
+  left: 40px;
 }
 
 .buttons button {
