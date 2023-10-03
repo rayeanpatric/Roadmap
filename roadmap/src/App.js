@@ -1,10 +1,16 @@
-// Remove the import statement for React since it is already imported below
-import Logo from './Componants/Logo';
-import './App.css'; // Create a CSS file for styling
+import React from 'react';
+import './App.css';
+import Logo from './Logo';
 
 function App() {
   const handleClick = (buttonName) => {
     console.log(`Button ${buttonName} clicked`);
+    if (buttonName !== 'Login') {
+      const element = document.getElementById(buttonName.toLowerCase());
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   };
 
   return (
@@ -22,11 +28,24 @@ function App() {
         </div>
       </header>
       <div className="content">
-        {/* Your content goes here */}
+        <div id="home">
+          {/* Home content goes here */}
+        </div>
+        <div id="works">
+          {/* Works content goes here */}
+        </div>
+        <div id="about">
+          {/* About content goes here */}
+        </div>
+        <div id="contact">
+          {/* Contact content goes here */}
+        </div>
+        <div>
+          {/* Login content goes here */}
+        </div>
       </div>
     </div>
   );
 }
-
 
 export default App;
