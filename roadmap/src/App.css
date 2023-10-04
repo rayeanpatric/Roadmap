@@ -26,6 +26,14 @@
   left: 20px;
 }
 
+.Image img {
+  max-height: 720px;
+  max-width: 850px;
+  position:relative;
+  top: 10px;
+  left: 20px;
+}
+
 .buttons button {
   margin-left: 10px;
   background-color: #060e1f;
