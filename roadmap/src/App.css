@@ -8,6 +8,7 @@
   border-color: white;
   color: white;
   border-radius: 25px;
+  background-color: #FFFFF80;
 }
 
 .App-header {
@@ -49,6 +50,7 @@
 
 .content {
   padding: 20px;
+
 }
 
 h1 , h2{
