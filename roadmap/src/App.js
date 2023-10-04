@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+<<<<<<< HEAD
         <div className="Logo">
          <Logo />
         </div>
@@ -27,6 +28,21 @@ function App() {
            <button onClick={() => handleClick('Contact')}>Contact</button>
            <button onClick={() => handleClick('Login')}>Login</button>
         </div>
+=======
+        {/* Display the navigation bar containing the Logo and buttons */}
+        <nav className="navbar">
+          <div className="Logo">
+            <Logo />
+          </div>
+          <div className="buttons right">
+            <button onClick={() => handleClick('Home')}>Home</button>
+            <button onClick={() => handleClick('Features')}>Features</button>
+            <button onClick={() => handleClick('About')}>About</button>
+            <button onClick={() => handleClick('Contact')}>Contact</button>
+            <button onClick={() => handleClick('Login')}>Login</button>
+          </div>
+        </nav>
+>>>>>>> 2e8170f8f2cb5516d3cafa1b7ccb456597c3cdf9
       </header>
       <div className="content">
         <div id="home">
