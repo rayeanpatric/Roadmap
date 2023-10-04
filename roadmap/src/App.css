@@ -4,10 +4,10 @@
 
 #home {
   text-align: center;
-  border-style: solid;
-  border-color: white;
-  color: white;
+  border-style: none;
+  color: ;
   border-radius: 25px;
+  
 }
 
 .App-header {
@@ -51,7 +51,7 @@
 }
 
 h1 , h2{
-  background: -webkit-linear-gradient(#1f9ed3,#6744e3);
+  background: linear-gradient(to right, #64bfe7,#2b1a69);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
