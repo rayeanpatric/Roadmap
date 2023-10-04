@@ -1,6 +1,7 @@
 * {
   background-color: #060e1f;
 }
+
 #home {
   text-align: center;
   border-style: solid;
@@ -44,6 +45,7 @@
     transform: scale(1.2);
     margin-top: 10px;
 }
+
 .content {
   padding: 20px;
 }
