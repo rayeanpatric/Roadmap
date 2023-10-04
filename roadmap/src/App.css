@@ -7,6 +7,8 @@
   border-style: none;
   color: white;
   border-radius: 25px;
+  background-color: transparent;
+  
 }
 
 .App-header {
@@ -42,12 +44,12 @@
   border-radius: 5px;
   transition: tranform 0.3s;
   margin-top: 10px;
-  position:relative;
+  position: relative;
   top: 10px;
   right: 20px;
   font-size:medium;
-  
   }
+
 .buttons button:hover {
     color: white;
     transform: scale(1.2);

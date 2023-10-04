@@ -21,11 +21,11 @@ function App() {
          <Logo />
         </div>
         <div className="buttons">
-          <button onClick={() => handleClick('Home')}>Home</button>
-          <button onClick={() => handleClick('Features')}>Features</button>
-          <button onClick={() => handleClick('About')}>About</button>
-          <button onClick={() => handleClick('Contact')}>Contact</button>
-          <button onClick={() => handleClick('Login')}>Login</button>
+           <button onClick={() => handleClick('Home')}>Home</button>
+           <button onClick={() => handleClick('Features')}>Features</button>
+           <button onClick={() => handleClick('About')}>About</button>
+           <button onClick={() => handleClick('Contact')}>Contact</button>
+           <button onClick={() => handleClick('Login')}>Login</button>
         </div>
       </header>
       <div className="content">
