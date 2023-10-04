@@ -40,7 +40,7 @@ function App() {
           <div className="Image">
            <ImageComponent />
           </div>
-          <p id='sub'>Unique Way to Learn</p>
+          <p><strong>Equity on Learning</strong></p>
           {/* Home content goes here */}
         </div>
         <div id="features">
