@@ -15,11 +15,95 @@
   margin-top: 50px;
   background-color: #1d061f;
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
   padding-top: 10px;
 }
 #home p,strong {
   background-color: inherit;
+}
+
+#features {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#features p {
+  background-color: inherit;
+}
+
+.feature1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust this property to control horizontal spacing */
+  align-items: center; /* Vertically center items */
+}
+
+.content1{
+  text-align: center;
+  border-style: solid;
+  border-color: #1d061f;
+  color: white;
+  border-radius: 25px;
+  margin-top: 0px;
+  margin-right: 90px;
+  background-color: #1d061f;
+  display: inline-block;
+  padding: 90px 30px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  flex: 2
+}
+
+.personalized img {
+  max-height: 400px;
+  max-width: 500px;
+  position:relative;
+  z-index: 1;
+}
+
+.personalized {
+  flex: 1;
+  text-align: left;
+  margin-left: 90px;
+}
+
+.explore img {
+  max-height: 400px;
+  max-width: 500px;
+  position:relative;
+  z-index: 1;
+}
+
+.explore{
+  text-align: right;
+  margin-right: 90px;
+}
+
+.profiling img {
+  max-height: 400px;
+  max-width: 500px;
+  position:relative;
+  z-index: 1;
+}
+
+.profiling{
+  text-align: right;
+  margin-right: 90px;
+}
+
+.ml img {
+  max-height: 400px;
+  max-width: 500px;
+  position:relative;
+  z-index: 1;
+}
+
+.ml{
+  text-align: left;
+  margin-left: 90px;
 }
 
 .App-header {

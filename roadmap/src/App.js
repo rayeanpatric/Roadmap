@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import Logo from "./Componants/Logo";
 import ImageComponent from "./Componants/Image";
+import Personalized from './Componants/Features/Personalized';
+import Profiling from './Componants/Features/Profiling';
+import ML from './Componants/Features/ML';
+import Explore from './Componants/Features/Explore';
 
 function App() {
   const handleClick = (buttonName) => {
@@ -43,8 +47,24 @@ function App() {
            <ImageComponent />
           </div>
         <div id="features">
-          
-          {/* Works content goes here */}
+          <h1>Features</h1>
+          <div className="feature1">
+          <div className="personalized">
+           <Personalized />
+           </div>
+           <div className="content1">
+            <p>Personalized learning is an educational approach</p> <p>that aims to customize learning</p> <p>for each student's strengths, needs, skills, and interests</p>
+          </div>
+           </div>
+           <div className="profiling">
+           <Profiling />
+           </div>
+           <div className="ml">
+           <ML />
+           </div>
+          <div className="explore">
+           <Explore />
+           </div>
         </div>
         <div id="about">
           {/* About content goes here */}
