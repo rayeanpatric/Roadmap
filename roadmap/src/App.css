@@ -112,6 +112,8 @@ h1{
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text; 
   margin-bottom: 5px;
+  font-family: 'Calibri';
+  font-weight: 700;
 }
 
 h2{
@@ -119,7 +121,6 @@ h2{
   -webkit-text-fill-color: transparent; 
   -webkit-background-clip: text; 
   margin-top: 8px;
-}
-h1, h2{
-
+  font-family: 'Calibri';
+  font-weight: 700;
 }
