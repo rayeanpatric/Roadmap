@@ -108,14 +108,18 @@
 }
 
 h1{
+  background: linear-gradient(to right, #00dbde 20%, #fc00ff 80%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
   margin-bottom: 5px;
 }
 
 h2{
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
   margin-top: 8px;
 }
 h1, h2{
-  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
--webkit-text-fill-color: transparent; 
--webkit-background-clip: text; 
+
 }
