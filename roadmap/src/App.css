@@ -97,11 +97,20 @@
 
 .content {
   padding: 20px;
-
 }
 
-h1 , h2{
-  background: linear-gradient(to right, red,yellow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+h1{
+  font-size: 50px;
+  background: linear-gradient( 
+    to right, #1f9ed3, #6744e3, #9381d6); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+}
+
+h2{
+  font-size: 55px;
+  background: linear-gradient( 
+    to right, #1f9ed3, #6744e3, #9381d6); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
 }
