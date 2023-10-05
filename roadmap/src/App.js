@@ -37,12 +37,11 @@ function App() {
           <h2>Personalized Learning RoadMap</h2>
           <p><strong>“The Best way to Shine in Future is to Create it.” </strong></p>
           <p>Let's create a simple and engaging way to help students grasp tricky concepts with ease.</p>
-          <div className="Image">
-           <ImageComponent />
-          </div>
-          <p><strong>Equity on Learning</strong></p>
           {/* Home content goes here */}
         </div>
+        <div className="Image">
+           <ImageComponent />
+          </div>
         <div id="features">
           
           {/* Works content goes here */}
