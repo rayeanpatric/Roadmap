@@ -54,12 +54,13 @@
   top: 10px;
   left: 20px;
   z-index: 1;
-  background-color: #1d061f;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Image {
-  background-color: #1d061f; 
-  display: inline-block;
+  text-align: center;
+
 }
 .buttons button {
   margin-left: 10px;
