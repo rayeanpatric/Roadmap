@@ -16,6 +16,7 @@
   background-color: #1d061f;
   display: inline-block;
   padding: 30px;
+  padding-top: 10px;
 }
 #home p,strong {
   background-color: inherit;
