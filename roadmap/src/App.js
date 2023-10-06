@@ -47,24 +47,43 @@ function App() {
            <ImageComponent />
           </div>
         <div id="features">
-          <h1>Features</h1>
+          <h1>FEATURES</h1>
+
           <div className="feature1">
           <div className="personalized">
            <Personalized />
            </div>
            <div className="content1">
-            <p>Personalized learning is an educational approach</p> <p>that aims to customize learning</p> <p>for each student's strengths, needs, skills, and interests</p>
+            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
           </div>
            </div>
+
+           <div className="feature2">
+           <div className="content2">
+            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+          </div>
            <div className="profiling">
            <Profiling />
            </div>
+           </div>
+
+           <div className="feature3">
            <div className="ml">
            <ML />
            </div>
+           <div className="content3">
+            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+          </div>
+           </div>
+
+           <div className="feature4">
+           <div className="content4">
+            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+          </div>
           <div className="explore">
            <Explore />
            </div>
+        </div>
         </div>
         <div id="about">
           {/* About content goes here */}
