@@ -43,9 +43,11 @@ function App() {
           <p>Let's create a simple and engaging way to help students grasp tricky concepts with ease.</p>
           {/* Home content goes here */}
         </div>
+
         <div className="Image">
            <ImageComponent />
           </div>
+
         <div id="features">
           <h1>FEATURES</h1>
 
@@ -85,12 +87,15 @@ function App() {
            </div>
         </div>
         </div>
+
         <div id="about">
           {/* About content goes here */}
         </div>
+
         <div id="contact">
           {/* Contact content goes here */}
         </div>
+        
         <div id="login">
           {/* Login content goes here */}
         </div>
