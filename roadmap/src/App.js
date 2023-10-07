@@ -13,7 +13,12 @@ function App() {
     if (buttonName !== 'Login') {
       const element = document.getElementById(buttonName.toLowerCase());
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        const offset = 80;
+        const elementPosition = element.offsetTop - offset;
+        window.scrollTo({
+          top: elementPosition,
+          behavior: 'smooth',
+        });
       }
     }
   };
@@ -21,7 +26,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Display the navigation bar containing the Logo and buttons */}
         <nav className="navbar">
           <div className="Logo">
             <Logo />
@@ -35,13 +39,13 @@ function App() {
           </div>
         </nav>
       </header>
+
       <div className="content">
         <div id="home">
           <h1>CEREBRO</h1>
           <h2>Personalized Learning RoadMap</h2>
           <p><strong>“The Best way to Shine in Future is to Create it.” </strong></p>
           <p>Let's create a simple and engaging way to help students grasp tricky concepts with ease.</p>
-          {/* Home content goes here */}
         </div>
 
         <div className="Image">
@@ -86,7 +90,6 @@ function App() {
            <Explore />
            </div>
         </div>
-        </div>
 
         <div id="about">
           {/* About content goes here */}
@@ -100,6 +103,7 @@ function App() {
           {/* Login content goes here */}
         </div>
       </div>
+    </div>
     </div>
   );
 }

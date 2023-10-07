@@ -6,6 +6,76 @@
   text-align: center;
 }
 
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #060e1f;
+  color: #060e1f;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #060e1f;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+
+.Logo img {
+  max-height: 100px;
+  max-width: 100px;
+  position:relative;
+  top: 10px;
+  left: 10px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  background-color: #060e1f;
+  color:#d9d9d9;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: tranform 0.3s;
+  margin-top: -5px;
+  position:relative;
+  top: 10px;
+  right: 20px;
+  font-size:medium;
+  }
+
+.buttons {
+    display: flex; 
+    align-items: center;
+  }
+
+.buttons.right {
+    margin-left: auto; 
+  }
+
+.buttons.right button:last-child {
+    margin-right: 35px; 
+  }
+
+.buttons button:hover {
+    color: white;
+    transform: scale(1.2);
+    margin-top: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
 #home {
   text-align: center;
   border-style: solid;
@@ -18,8 +88,45 @@
   padding: 20px;
   padding-top: 10px;
 }
+
 #home p,strong {
   background-color: inherit;
+}
+
+h1{
+  background: linear-gradient(to right, #00dbde 20%, #fc00ff 80%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  margin-bottom: 5px;
+  font-family: 'Calibri';
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2{
+  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  margin-top: 8px;
+  font-family: 'Calibri';
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.Image img {
+  max-height: 720px;
+  max-width: 850px;
+  position:relative;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.Image {
+  text-align: center;
 }
 
 #features {
@@ -42,8 +149,8 @@
 .feature1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust this property to control horizontal spacing */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .content1{
@@ -79,52 +186,12 @@
   margin-left: 200px;
 }
 
-.feature4 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between; /* Adjust this property to control horizontal spacing */
-  align-items: center; /* Vertically center items */
-}
-
-.content4 {
-  text-align: center;
-  border-style: solid;
-  border-color: #2d004c;
-  color: white;
-  border-radius: 25px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 200px;
-  background-color: #1b002e;
-  display: inline-block;
-  padding-top: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 10px;
-  line-height: 250%;
-  flex: 1;
-}
-
-.explore img {
-  max-height: 400px;
-  max-width: 500px;
-  position:relative;
-  z-index: 1;
-}
-
-.explore{
-  flex: 2;
-  text-align: right;
-  margin-right: 200px;
-}
-
 .feature2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust this property to control horizontal spacing */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .content2 {
@@ -162,8 +229,8 @@
 .feature3 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Adjust this property to control horizontal spacing */
-  align-items: center; /* Vertically center items */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .content3{
@@ -200,108 +267,42 @@
   margin-left: 200px;
 }
 
-.App-header {
+.feature4 {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: #060e1f;
-  color: #060e1f;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #060e1f;
-  z-index: 2;
-  height: 80px;
-  width: 100%;
-  padding: 0 20px;
-  margin-bottom: 50px;
-}
-
-.Logo img {
-  max-height: 100px;
-  max-width: 100px;
-  position:relative;
-  top: 10px;
-  left: 10px;
-}
-
-.Image img {
-  max-height: 720px;
-  max-width: 850px;
-  position:relative;
-  top: 10px;
-  left: 20px;
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
-}
-
-.Image {
+.content4 {
   text-align: center;
-
+  border-style: solid;
+  border-color: #2d004c;
+  color: white;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  background-color: #1b002e;
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  line-height: 250%;
+  flex: 1;
 }
-.buttons button {
-  margin-left: 10px;
-  background-color: #060e1f;
-  color:#d9d9d9;
-  border: 0px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: tranform 0.3s;
-  margin-top: -5px;
+
+.explore img {
+  max-height: 400px;
+  max-width: 500px;
   position:relative;
-  top: 10px;
-  right: 20px;
-  font-size:medium;
-  }
-
-  .buttons {
-    display: flex; /* Make the buttons display inline */
-    align-items: center;
-  }
-
-  .buttons.right {
-    margin-left: auto; /* Auto margin pushes buttons to the right */
-  }
-
-  .buttons.right button:last-child {
-    margin-right: 35px; /* Adjust the margin as needed */
-  }
-
-.buttons button:hover {
-    color: white;
-    transform: scale(1.2);
-    margin-top: 10px;
+  z-index: 1;
 }
 
-.content {
-  padding: 20px;
-}
-
-h1{
-  background: linear-gradient(to right, #00dbde 20%, #fc00ff 80%); 
-  -webkit-text-fill-color: transparent; 
-  -webkit-background-clip: text; 
-  margin-bottom: 5px;
-  font-family: 'Calibri';
-  font-weight: 700;
-  font-size: 40px;
-}
-
-h2{
-  background: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); 
-  -webkit-text-fill-color: transparent; 
-  -webkit-background-clip: text; 
-  margin-top: 8px;
-  font-family: 'Calibri';
-  font-weight: 700;
-  font-size: 25px;
+.explore{
+  flex: 2;
+  text-align: right;
+  margin-right: 200px;
 }
