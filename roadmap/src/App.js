@@ -92,6 +92,10 @@ function App() {
         </div>
 
         <div id="about">
+          <h1>ABOUT</h1>
+          <div className="aboutCont">
+          <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+          </div>
           {/* About content goes here */}
         </div>
 
