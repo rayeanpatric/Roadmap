@@ -78,13 +78,13 @@ function App() {
            <ML />
            </div>
            <div className="content3">
-            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+            <p>Assessing a student's proficiency using ML algorithms involves designing a system that can accurately evaluate the student's knowledge, skills, or performance in a particular subject or field.</p>
           </div>
            </div>
 
            <div className="feature4">
            <div className="content4">
-            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+            <p>Encouraging students to explore their ideas and creativity through learning is a fantastic approach to education. This approach fosters problem-solving skills, and a deeper understanding of the subject matter. </p>
           </div>
           <div className="explore">
            <Explore />
