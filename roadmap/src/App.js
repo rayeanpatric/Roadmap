@@ -60,7 +60,7 @@ function App() {
            <Personalized />
            </div>
            <div className="content1">
-            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+            <p>AI-powered personalized learning is a student-centered approach that uses AI to tailor learning experiences to individual needs, interests, and pace. </p>
           </div>
            </div>
 
