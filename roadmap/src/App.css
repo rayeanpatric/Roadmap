@@ -306,3 +306,29 @@ h2{
   text-align: right;
   margin-right: 200px;
 }
+
+#about {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#about h1{
+  background: linear-gradient(to right, #00dbde 40%, #fc00ff 60%); 
+  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; 
+  font-size: 40px;
+}
+
+.aboutCont {
+  text-align: center;
+  border-style: solid;
+  border-color: #2d004c;
+  color: white;
+  border-radius: 25px;
+  margin-top: 50px;
+  background-color: #1b002e;
+  display: inline-block;
+  padding: 20px;
+  padding-top: 10px;
+}
