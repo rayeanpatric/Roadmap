@@ -66,7 +66,7 @@ function App() {
 
            <div className="feature2">
            <div className="content2">
-            <p>Personalized learning is an educational approach that aims to customize learning for each student's strengths, needs, skills, and interests</p>
+            <p>Based on your interests and motivations, you are portrayed in a tailored learning profile. The profile makes reliable predictions about secondary success using a multi-dimensional and tailored collection of factors. </p>
           </div>
            <div className="profiling">
            <Profiling />
